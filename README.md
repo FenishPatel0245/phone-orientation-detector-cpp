@@ -31,3 +31,14 @@ implement FileManager methods for file I/O
 
   File: FileManager.cpp
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ Name:Darshita/Date:2025-08-05 :
+
+ d placeholder KNNModule class derived from Classifier
+
+- Implements train() and predict() as stubs
+- predict() returns fixed message: \"KNNModule not implemented yet!\"
+- Allows compilation and testing of interface without logic"
+
+  File: FileManager.cpp
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
