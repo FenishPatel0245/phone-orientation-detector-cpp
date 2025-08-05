@@ -42,3 +42,14 @@ implement FileManager methods for file I/O
 
   File: FileManager.cpp
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ Name:Darshita/Date:2025-08-05 :
+
+ create KNNModule.cpp with base header include
+
+- Includes KNNModule.h to ensure linkage and compilation
+- Placeholder file for future k-Nearest Neighbour logic
+- Keeps file structure consistent with other classifier modules
+
+  File: FileManager.cpp
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
