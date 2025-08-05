@@ -17,3 +17,17 @@ define FileManager utility class for reading and writing gravity data
 - Centralizes file I/O for training, test, and prediction data
 
   File: FileManager.h
+  
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ Name:Fenish/Date:2025-08-05 :
+
+implement FileManager methods for file I/O
+
+- readData(): reads lines from file, parses x, y, z, and orientation into GravityData
+- Supports space/tab-separated values
+- writeOutputs(): writes GravityData predictions to output file
+- Outputs tab-separated columns with header: X, Y, Z, Orientation
+
+  File: FileManager.cpp
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
