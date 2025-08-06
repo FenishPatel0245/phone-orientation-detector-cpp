@@ -67,3 +67,20 @@ define abstract Classifier base class and GravityData struct
   File: BaseClassifier.h
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Name:Pratham/Date:2025-08-05 :
+
+add interactive main program for orientation classification
+
+- Loads training data from file using FileManager
+- Prompts user to choose classifier: NNModule, TestClassifier, or KNNModule
+- For NNModule:
+  - Supports manual input of gravity vectors or input from data file
+  - Outputs predictions to console or writes to result.txt
+- For TestClassifier and KNNModule:
+  - Demonstrates predict() method with default input (0,0,0)
+- Dynamically allocates and deletes classifier object
+
+  File: main.cpp
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
