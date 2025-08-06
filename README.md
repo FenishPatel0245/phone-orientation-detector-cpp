@@ -40,7 +40,7 @@ implement FileManager methods for file I/O
 - predict() returns fixed message: \"KNNModule not implemented yet!\"
 - Allows compilation and testing of interface without logic"
 
-  File: FileManager.cpp
+  File: KNNModule.h
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
  Name:Darshita/Date:2025-08-05 :
@@ -51,5 +51,19 @@ implement FileManager methods for file I/O
 - Placeholder file for future k-Nearest Neighbour logic
 - Keeps file structure consistent with other classifier modules
 
-  File: FileManager.cpp
+  File: KNNModule.cpp
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Name:Pratham/Date:2025-08-05 :
+
+define abstract Classifier base class and GravityData struct
+
+- GravityData: holds x, y, z accelerometer values and orientation label
+- Classifier: abstract interface with pure virtual methods:
+  - train(): to be implemented by concrete classifiers
+  - predict(): returns predicted orientation
+- Includes virtual destructor to allow safe polymorphic deletion
+
+  File: BaseClassifier.h
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
